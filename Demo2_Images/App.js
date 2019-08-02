@@ -9,7 +9,7 @@ import React from 'react';
 import { Image, View, Text } from 'react-native';
 import { createStackNavigator, createAppContainer } from 'react-navigation';
 
-import { Image } from 'react-native';
+
 
 //to install react-navigation you can use npm install --save react-navigation
 
@@ -18,18 +18,11 @@ class ImageRender extends React.Component {//using class allows your to create d
     return (
       <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
 
-          <Image source = {require('./screen.png')}/>
+          <Image source = {require('./pup.png')}/>
       </View>
     );
   }
 }
-
-      const App = () => {
-         return (
-            <ImageRender />
-         )
-      }
-      export default App
 
 
       export default class App extends React.Component {

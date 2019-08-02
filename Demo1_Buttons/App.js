@@ -6,10 +6,10 @@
 //Take the code below, and try and adapt it so that you have an application that can move between different screens.
 //This application should serve as an 'early-stage' of your final applications that you all are hoping to design
 //Make sure to think of the user experience
-//Once you have completed this task, please move on to demo 2. 
+//Once you have completed this task, please move on to demo 2.
 
 import React from 'react';
-import { Button, View, Text } from 'react-native';
+import { Button, View, Text, StyleSheet } from 'react-native';
 import { createStackNavigator, createAppContainer } from 'react-navigation';
 //to install react-navigation you can use npm install --save react-navigation
 
@@ -72,3 +72,8 @@ export default class App extends React.Component {
     return <AppContainer />;
   }
 }
+
+const styles = StyleSheet.create({
+
+
+});
